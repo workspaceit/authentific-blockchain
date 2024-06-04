@@ -1,0 +1,41 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "file-type": "^16.5.3",
+    "find-remove": "^3.1.0",
+    "ghostscript-node": "^1.2.0",
+    "ipfs-http-client": "^53.0.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.0.3",
+    "multer": "^1.4.2",
+    "puppeteer": "^18.0.5",
+    "short-uuid": "^4.2.0",
+    "web3": "^1.7.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.9",
+    "nodemon": "^2.0.15",
+    "solc": "^0.4.26"
+  }
+}
